@@ -368,6 +368,7 @@ function addMissingMeteorPackages() {
 		'webapp',
 		'webapp-hashing',
 		'rocketchat:oauth2-server',
+		'rocketchat:i18n',
 	].join('\n');
 
 	fs.writeFileSync('.meteor/packages', packagesFile);
